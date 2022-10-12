@@ -1,4 +1,4 @@
-IMPORT ubuntu 18.04
+FROM ubuntu 18.04
 RUN sudo apt-get install wget -y
 RUN sudo wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
 RUN sudo apt import https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb.sha256
